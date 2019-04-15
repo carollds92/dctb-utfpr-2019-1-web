@@ -1,0 +1,84 @@
+@font-face {
+font-family: "TrajanPro-Regular";
+src: url("../fonts/TrajanPro-Regular.tff");
+src: 
+url("../fonts/TrajanPro-Regular.tff") format("tff"),
+}
+
+body{
+	top: 0;
+	left: 0;
+}
+
+#header{
+	font-family: "TrajanPro-Regular";
+	color: #f2e9e4;
+	position: fixed;
+	display: inline-block;
+	background-color: #22223b;	
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+}
+
+.menu_sup_esquerda{
+	float: left;
+	margin-left: 5%;
+	display: inline-block;
+}
+
+.menu_sup_esquerda .img_logo{
+	float: left;
+	width: 80px;
+}
+
+.logo{
+	margin-top: 4%;
+	text-align: center;
+	line-height: 0px;
+}
+
+.menu_sup_esquerda .logo{
+	float: right;
+	display: block;
+}
+
+.menu_sup_direita{
+	margin-right: 10%;
+	margin-top: 25px;
+	float: right;
+	font-size: 20px;
+}
+
+.menu_sup_direita a{
+	margin-left: 20px;
+	padding: 5px;
+}
+
+.menu_sup_direita a:hover{
+	border-bottom: 3px solid #6c757d;
+}
+
+#menu_inicial{
+	background: linear-gradient( rgba(74,78,105, 0.9) 100%, rgba(74,78,105, 0.9)100%),url("img/geovanna-bg-home.jpg");
+	/*background: #4a4e69 url("img/geovanna-bg-home.jpg");*/
+	margin-top: 70px;
+	height: 600px;
+	width: 105.6%;
+	margin-left: -5%;
+	text-align: center;
+	padding: 50px 10px 50px 10px;
+}
+
+#menu_inicial button{
+	margin-top: 350px;
+	border-radius: 40px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 60px;
+	font-weight: 300;
+	font-size: 16px;
+}

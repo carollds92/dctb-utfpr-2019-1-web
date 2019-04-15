@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<!--Exercise:implementar uma pagina com todos os componentes de flexbox. --> 
+
+<html>
+	
+	<head> 
+		<meta charset = "UTF-8">
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<title> FlexBox - How to use</title>
+	</head> 
+	
+	<body>
+	
+			<div class = "display-flex" id = "display-flex"> 
+				<h1> This page is for exemplify all modes of Flexbox </h1>
+			</div>	
+			<div class = "flex-wrap" id = "flex-wrap|align-self"> 
+				<nav id="menu">
+					<a href="#display">Display</a>
+					<a href="#flex-direction|flex">Flex-Direction and Flex</a>
+					<a href="#flex-wrap|align-self">Flex-Wrap and Align-Self</a>
+					<a href="#flex-flow|flex-basis">Flex-Flow and Flex-Basis</a>
+					<a href="#justify-content|order">Justify-Content and Order</a>
+					<a href="#align-items|flex-shrink">Align-Items and Flex-Shrink</a>
+					<a href="#align-content|flex-grow">Align-Content and Flex-Grow</a>
+				</nav>
+			</div>		
+		
+			<section class = "flex-direction" id ="flex-direction|flex" > 
+			   <h3> This part exemplifies the concept flex-direction and flex </h3>
+				<form>
+					<div class = 'item'> Name:<input type="text" id="name"> </div> </br>
+					<div class = 'item'> E-mail:<input type="email" id="email"> </div> </br>
+					<div class = 'item'> Messenge:<textarea id="msg"></textarea></div> </br> 
+					<div class = 'item'> <input type="submit" value="Submit"/> </div> </br> 
+				</form>
+				</br>
+			</section>
+						
+			<div class = "flex-flow" id ="flex-flow|flex-basis" > 
+				<img src="images/image06.jpg" alt = "image06" id = "imgdog">
+				<h4> Testing the function of flex-flow and flex-basis.</h4>
+				</br>
+			</div>
+			
+			<div class = "justify-content" id = "justify-content|order"> 
+				<h4>Testing "Justify-Content" and "Order"</h4> 
+				<div class = "item order2"> <a href= "https://www.buzzfeed.com/br"> BuzzFeed </a> </div>
+				<div class = "item order1"><a href= "https://g1.globo.com/" class = "order1"> G1 News </a></div>
+				<div class = "item order3"><a href= "www.utfpr.edu.br/cornelioprocopio" class = "order3"> UTFPR - CP </a></div>
+							
+			</div>
+			
+			<div class = "align-items" id = "align-items|flex-shrink"> 
+				<h3> This part exemplifies the concept of align-items with flex-shrink </h3> </br>
+				<img src = "images/image01.jpg" alt = "image01">
+				<img src = "images/image02.jpg" alt = "image02">
+				<img src = "images/image03.jpg" alt = "image03">
+				<img src = "images/image04.jpg" alt = "image04">
+				<img src = "images/image05.jpg" alt = "image05">
+				</br>
+			</div>
+			
+			<div class = "align-content" id = "align-content|flex-grow">
+				<h3>Testing the align-content function with flex-grow </h3> </br>
+				<div class= "item">lorem ipsum dolor sit amet consectetur adipiscing elit 
+				eleifend lacus pulvinar urna purus dapibus aliquam rutrum nisl ligula eu 
+				tincidunt</div> 
+				<div class= "item">Exemple of aleatory text</div>
+				<div class= "item">lorem ipsum dolor sit amet consectetur adipiscing elit 
+				eleifend lacus pulvinar urna purus dapibus aliquam rutrum nisl ligula eu 
+				tincidunt</div>				
+			</div>
+
+			<footer>
+				</br>
+				<center> TA02 - Criar uma página exemplificando os tipos de FlexBox. </center>
+			</footer>
+	</body>
+	
+</html>

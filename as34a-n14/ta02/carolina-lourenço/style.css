@@ -1,0 +1,115 @@
+
+/* CSS FOR PAGE OF CURRICULUM*/
+
+body, html{
+	magin: 0; 
+	padding: 0; 
+	font-size: 100%;
+	font-family: arial;
+}
+
+body{
+
+	background-size: cover; /* mantem a proporção da imagem sem distorce-la*/
+	background-attachment: fixed; 
+}
+img{
+	width: 17rem;
+	height: 10rem; 
+}
+h3{
+	color: grey; 
+	
+}
+
+div{
+	border: 1px solid #ccc; 
+	height 100%; 
+	
+}
+
+#imgdog{
+	width: 12rem;
+	height: 10rem;
+}
+
+#menu a{
+    padding: 2px 10px;
+   /* display: inline-block;*/
+    background-color: #D8D8D8;
+    color: #333333;
+    text-decoration: none;
+    border-bottom:3px solid #D8D8D8;
+}
+
+.item{ 
+	background-color: #D8D8D8;
+	flex: 1; 
+}
+
+.display-flex{
+	display: flex; 
+}
+
+.flex-direction{
+	flex: 1;
+	flex-direction: row; 
+}
+
+.flex-wrap{
+	flex-wrap: wrap;
+	align-self: stretch; 
+}
+
+.flex-flow{
+	display: flex; 
+	flex-flow: row nowrap;
+	flex-basis: 27%;	
+}
+
+.justify-content{
+	/*se colocar flex:1; não vai funcionar a função */
+	display: flex; 
+    justify-content:space-between;
+
+}
+
+.order2{
+	order: 2; 
+}
+
+.order1{
+	order: 1; 
+}
+.order3{
+	order: 3; 
+}
+.align-items{
+	display: flex; 
+	flex-wrap: wrap; 
+	align-items:baseline;
+    flex-shrink: 2;  	
+}
+
+.align-content{
+	display: flex; 
+	flex-wrap: wrap;
+	align-content: space-around; 
+	flex-grow: 2; 
+}
+
+.align-self{}
+
+
+footer{
+	float: fixed; 
+}
+
+@media screen and (max width: 1024px){
+	html{
+		float: none; 
+		width: 100%; 
+		margin-right: 0; 
+	}
+}
+
